@@ -1,0 +1,51 @@
+PS C:\LearnReact\backend> npm install sequalize sequalize-cli 
+npm error code E404
+npm error 404 Not Found - GET https://registry.npmjs.org/sequalize - Not found
+npm error 404
+npm error 404  The requested resource 'sequalize@*' could not befound or you do not have permission to access it.
+npm error 404
+npm error 404 Note that you can also install from a
+npm error 404 tarball, folder, http url, or git url.
+npm error A complete log of this run can be found in: C:\Users\acer\AppData\Local\npm-cache\_logs\2026-10-14T23_52_01_473Z-debug-0.log
+PS C:\LearnReact\backend> npm sequelize sequelize-cli  
+Unknown command: "sequelize"
+
+To see a list of supported npm commands, run:
+  npm help
+PS C:\LearnReact\backend> npm install sequelize sequelize-cli
+npm warn deprecated dottie@2.0.7: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm warn deprecated uuid@8.3.2: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
+npm warn deprecated glob@10.5.0: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+
+added 103 packages, and audited 388 packages in 22s
+
+52 packages are looking for funding
+  run `npm fund` for details
+
+16 vulnerabilities (7 moderate, 9 high)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+PS C:\LearnReact\backend> sequelize init 
+sequelize : The term 'sequelize' is not recognized as the name 
+of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify 
+that the path is correct and try again.
+At line:1 char:1
++ sequelize init
++ ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (sequelize:String 
+   ) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS C:\LearnReact\backend> npx sequelize-cli init
+
+Sequelize CLI [Node: 24.11.1, CLI: 6.6.5, ORM: 6.37.8]
+
+Created "config\config.json"
+Successfully created models folder at "C:\LearnReact\backend\models".
+Successfully created migrations folder at "C:\LearnReact\backend\migrations".
+Successfully created seeders folder at "C:\LearnReact\backend\seeders".
+PS C:\LearnReact\backend> 
